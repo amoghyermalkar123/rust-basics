@@ -7,6 +7,6 @@
     * `structs` - all about structs
 
 #### Note: 
-    * this repository is under works right now. Each new topic will get it's own folder.
-        then this folder can have many sub-folders containing wide-array of examples, code-comment
-        walkthroughs, etc.
+* this repository is under works right now. Each new topic will get it's own folder.
+    then this folder can have many sub-folders containing wide-array of examples, code-comment
+    walkthroughs, etc.
