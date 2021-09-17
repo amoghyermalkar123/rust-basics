@@ -10,3 +10,4 @@ basics = { path = "./basics"}
 enums = { path = "./enums"}
 error_handling = { path = "./error_handling"}
 ownership = { path = "./ownership"}
+structs = { path = "./structs"}
