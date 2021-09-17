@@ -1,4 +1,4 @@
 
 fn main() {
-    ownership::dusra();
+    structs::start()   
 }
