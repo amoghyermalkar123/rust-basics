@@ -1,6 +1,8 @@
-mod ownershipBasics;
+mod ownership_basics;
 mod mutable_reference;
+mod slice;
+
 
 pub fn dusra() {
-    mutable_reference::mainer()
+    slice::main_two();
 }
