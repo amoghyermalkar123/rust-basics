@@ -10,27 +10,27 @@ fn change(some_string: &mut String) {
 }
 
 // mutable references have one big restriction: you can have only one mutable reference
-// to a particular piece of data in a particular scope. 
+// to a particular piece of data in a particular scope.
 // This code will fail:
 
 /// fn main() {
 ///     let mut s = String::from("hello");
-/// 
+///
 ///     let r1 = &mut s;
 ///     let r2 = &mut s;
-/// 
+///
 ///     println!("{}, {}", r1, r2);
 /// }
 
 /*
-The benefit of having this restriction is that Rust can prevent data races at compile time. 
+The benefit of having this restriction is that Rust can prevent data races at compile time.
 A data race is similar to a race condition and happens when these three behaviors occur:
     * Two or more pointers access the same data at the same time.
     * At least one of the pointers is being used to write to the data.
     * There’s no mechanism being used to synchronize access to the data.
 
 Data races cause undefined behavior and can be difficult to diagnose and fix when
-you’re trying to track them down at runtime; Rust prevents this problem from happening 
+you’re trying to track them down at runtime; Rust prevents this problem from happening
 because it won’t even compile code with data races!
 */
 
@@ -55,7 +55,6 @@ pub fn combine_types_of_references() {
 
 //    println!("{}, {}, and {}", r1, r2, r3);
 // }
-
 
 // GIST -> YOU CAN ONLY HAVE ONE MUTABLE REFERENCE AT ONE TIME IN A GIVEN SCOPE
 // YOU CAN HAVE ANY NUMBER OF IMMUTABLE REFERENCES BUT ONLY ONE MUTABLE REFERENCE WHEN
