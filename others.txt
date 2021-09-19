@@ -1,0 +1,4 @@
+impl<K: Eq + Hash + HeapSizeOf, V: HeapSizeOf, S: BuildHasher> HeapSizeOf for LruCache<K, V, S> 
+
+translates to :
+For all types K that implement the traits Eq, Hash, HeapSizeOf and for all types V that implement HeapSizeOf and for all types S that implement BuildHasher, implement the trait HeapSizeOf for the type LruCache<K, V, S> as follows: ...
