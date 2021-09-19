@@ -3,7 +3,15 @@
 version = 3
 
 [[package]]
+name = "about_match"
+version = "0.1.0"
+
+[[package]]
 name = "basics"
+version = "0.1.0"
+
+[[package]]
+name = "collections"
 version = "0.1.0"
 
 [[package]]
@@ -22,7 +30,9 @@ version = "0.1.0"
 name = "rustbasics"
 version = "0.1.0"
 dependencies = [
+ "about_match",
  "basics",
+ "collections",
  "enums",
  "error_handling",
  "ownership",
