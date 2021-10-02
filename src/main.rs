@@ -8,5 +8,8 @@ fn main() {
     enums::sort_addresses(ipv6);
     enums::test_options();
 
-    error_handling::err_handling()
+    // error_handling::err_handling();
+
+    let g = generics::generic_function(11212);
+    println!("{}", g)
 }

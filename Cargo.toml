@@ -13,3 +13,4 @@ ownership = { path = "./ownership"}
 structs = { path = "./structs"}
 collections = {path = "./collections" }
 about_match = {path = "./about_match" }
+generics = { path = "./generics" }
