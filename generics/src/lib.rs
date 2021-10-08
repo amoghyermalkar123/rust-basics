@@ -2,7 +2,7 @@ pub fn generic_function<T>(data: T) -> T {
     data
 }
 
-fn err_generic_function<T>(data: &mut T) -> T {
+pub fn err_generic_function<T>(data: &mut T) /*-> T*/ { 
     // *data // why is this an error
     /*
         Whenever you dereference a pointer, you move ownership out of where the 
