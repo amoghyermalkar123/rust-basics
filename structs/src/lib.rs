@@ -79,10 +79,10 @@ impl Square {
     // method
     fn area(&self) -> u32 {
         /*
-        In the signature for area, we use &self instead of rectangle: &Rectangle 
-        because Rust knows the type of self is Rectangle due to this method’s being 
-        inside the impl Rectangle context. Note that we still need to use the & before self, 
-        just as we did in &Rectangle. Methods can take ownership of self, borrow self 
+        In the signature for area, we use &self instead of Square: &Square 
+        because Rust knows the type of self is Square due to this method’s being 
+        inside the impl Square context. Note that we still need to use the & before self, 
+        just as we did in &Square. Methods can take ownership of self, borrow self 
         immutably as we’ve done here, or borrow self mutably, just as they can any other 
         parameter.
         */
