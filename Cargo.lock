@@ -42,8 +42,13 @@ dependencies = [
  "generics",
  "ownership",
  "structs",
+ "traits",
 ]
 
 [[package]]
 name = "structs"
+version = "0.1.0"
+
+[[package]]
+name = "traits"
 version = "0.1.0"

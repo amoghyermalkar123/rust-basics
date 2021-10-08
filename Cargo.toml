@@ -14,3 +14,5 @@ structs = { path = "./structs"}
 collections = {path = "./collections" }
 about_match = {path = "./about_match" }
 generics = { path = "./generics" }
+traits = { path = "./traits" }
+# not putting lifetime as a crate because examples explained have errors :)
