@@ -10,6 +10,16 @@ fn main() {
 
     // error_handling::err_handling();
 
-    let g = generics::generic_function(11212);
-    println!("{}", g)
+    generics::generic_function(11212);
+    traits::use_summary();
+    traits::default::use_default();
+
+    let tweet = traits::Tweet{
+        username: String::from("amogh"),
+        content: String::from("this is content"),
+        reply: false,
+        retweet: false,
+    };
+
+    traits::take_any_type_that_has_summary_trait(&tweet);
 }
